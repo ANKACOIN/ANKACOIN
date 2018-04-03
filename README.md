@@ -1,7 +1,7 @@
 ANKACOIN integration/staging tree
 ================================
 
-http://www.ankacoin.org
+http://www.ankacoin.io
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright 
@@ -13,7 +13,7 @@ What is ANKACOIN?
 ANKACOIN is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 
 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
+ - subsidy halves in 220k blocks (~1-2 years)
  - ~250 million total coins
 
 The rest is the same as Bitcoin.
@@ -22,7 +22,7 @@ The rest is the same as Bitcoin.
 
 
 For more information, as well as an immediately useable, binary version of
-the ANKACOIN client sofware, see http://www.ankacoin.io.
+the ANKACOIN client sofware, see http://www.ankacoin.io
 
 License
 -------
@@ -55,7 +55,7 @@ controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to 
 be
-completely stable. [Tags](https://github.com/ankacoin-project/ankacoin/tags) are created
+completely stable. [Tags](https://github.com/ANKACOIN/SOURCE) are created
 regularly to indicate new official, 
 stable release versions of ANKACOIN.
 
@@ -69,21 +69,5 @@ remember this is a security-critical project where any mistake might cost people
 lots of money.
 
 ###
- Automated Testing
 
-Developers are strongly encouraged to write unit tests for new code, and to
-
-submit new unit tests for old code.
-
-Unit tests for the core code are in `src/test/`. To compile and run them:
-
-    
-cd src; make -f makefile.unix test
-
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
-    
-qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
-    make -f Makefile.test
-    ./ankacoin-qt_test
 
