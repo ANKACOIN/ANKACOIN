@@ -1,0 +1,9 @@
+Building ANKACOIN
+
+See doc/readme-qt.rst for instructions on building ANKACOIN-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of ANKACOIN.
+
+See doc/build-*.txt for instructions on building ankacoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of ANKACOIN.
